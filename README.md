@@ -8,6 +8,6 @@
 
 ####However, if you use SKIP, you cannot go back.
 
-####Player 1 will play the full round, then Player 2. Whoever has the highest score wins. Duh. 
+####Player 1 will play the full round, then Player 2. Whoever has the highest score wins.
 
 ####f you need a hint, hover over the picture and you will see a bit of the clip.
