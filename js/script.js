@@ -13,26 +13,6 @@ var doh = document.createElement("audio");
     doh.autoPlay=false;
     doh.preLoad=true;
 
-// //?????? How to get the create the audio clip and then play with quote display
-// var ants = document.createElement("audio");
-//     ants.src="audio/centerforants.mp3";
-//     ants.volume=0.20;
-//     ants.autoPlay=false;
-//     ants.preLoad=true;
-
-  // var busy = document.createElement("audio");
-  //   busy.src="audio/getbusy.mp3";
-  //   busy.volume=0.20;
-  //   busy.autoPlay=false;
-  //   busy.preLoad=true;  
-
-// function playClip(clipNumber) {
-//     source.src="audio/"quotesArray1[playerOneTurn].audio;
-//     source.volume=0.2;
-//     source.autoPlay=false;
-//     source.preLoad=true;
-// }
-
 //List of variables
 var instructions = $("#instructionsModal");
 var instructionsButton = $("#instructionsButton");
@@ -151,7 +131,7 @@ var quotesArray2 =
 //Game Timers
 var timerInterval;
 function timer(){
-    var secs = 81;
+    var secs = 71;
     timerInterval = setInterval(function(){ 
         secs--; 
         timerDisplay.empty().append("Timer: " + secs);
@@ -164,7 +144,7 @@ function timer(){
     }, 1000);
 };
 function timer2(){
-    var secs = 81;
+    var secs = 71;
     timerDisplay.css("color", "white");
     timerInterval = setInterval(function(){ 
         secs--; 
